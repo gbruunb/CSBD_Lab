@@ -4,11 +4,15 @@
  * and open the template in the editor.
  */
 
-package customermailapplication;
+package DrawShapeApplication;
+
 /**
  *
  * @author sarun
  */
-public abstract class Customer { //make this class abstract
-    public abstract String createMail(); //make this method abstract
+public class Ellipse {
+
+    public void draw(){
+        System.out.println("draw ellipse");
+    }
 }

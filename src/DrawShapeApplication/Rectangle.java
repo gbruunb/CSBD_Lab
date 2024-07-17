@@ -4,15 +4,16 @@
  * and open the template in the editor.
  */
 
-package customermailapplication;
+package DrawShapeApplication;
 
 /**
  *
  * @author sarun
  */
-//make this class a subclass of customer
-public class MountainCustomer  {
+public class Rectangle {
 
-    //Complete this class
+    public void draw(){
+        System.out.println("draw rectangle");
+    }
     
 }
